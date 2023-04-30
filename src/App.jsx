@@ -1,14 +1,16 @@
 
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
 
 
   return (
     <>
-    <div>Hello, world</div>
+      <Nav />
+      <About />
     </>
   )
 }
