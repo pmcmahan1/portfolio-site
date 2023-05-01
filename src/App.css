@@ -1,0 +1,9 @@
+.cards-list {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.project-img {
+    max-height: 10rem;
+}
