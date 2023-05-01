@@ -1,4 +1,4 @@
-import Carousel from "react-bootstrap/Carousel";
+
 
 export default function About() {
   return (
@@ -12,11 +12,19 @@ export default function About() {
       </div>
       <div>Socials:</div>
       <div className="social-links">
-        <a href="https://github.com/pmcmahan1" target="_blank" rel="noopener noreferrer">
-            <img src="src\assets\github.svg"></img>     
+        <a
+          href="https://github.com/pmcmahan1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="src\assets\github.svg"></img>
         </a>
-        <a href="https://www.linkedin.com/in/patrick-mcmahan-736a42234/" target="_blank" rel="noopener noreferrer">
-            <img src="src\assets\linkedin.svg"></img>     
+        <a
+          href="https://www.linkedin.com/in/patrick-mcmahan-736a42234/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="src\assets\linkedin.svg"></img>
         </a>
       </div>
     </div>
