@@ -5,6 +5,8 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Card from './components/Card';
 import data from './data';
+import { ContactUs } from './components/Contact';
+
 
 function App() {
   const cards = data.map(item => {
@@ -24,6 +26,7 @@ function App() {
       <section className="cards-list">
         {cards}
       </section>
+      <ContactUs />
     </>
   )
 }
