@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nav from "./components/Nav";
-import About from "./components/About";
+import Intro from "./components/Intro";
 import Card from "./components/Card";
 import data from "./data";
 import { ContactUs } from "./components/Contact";
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Nav />
-      <About />
+      <Intro />
       <section className="cards-list">{cards}</section>
       <ContactUs notify={notify} />
       <ToastContainer

@@ -1,7 +1,11 @@
+root {
+    max-width: 2000px;
+}
+
 .cards-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 1rem;
     margin: 0.5rem 4rem 1rem 4rem;
 }
@@ -11,21 +15,25 @@
     width: 100px;
 }
 
-.about {
+.intro {
     min-height: 18rem;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    padding: 5rem;
 }
 
 .head-text {
-    margin: 2rem 0rem 0rem 3rem;
+    margin: 2rem 12rem 0rem 4rem;
     font-size: 4rem;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .body-text, .projects-text {
-    margin: 0rem 12rem 0rem 3rem;
+    margin: 1rem 12rem 1rem 4rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -38,4 +46,11 @@
 .card {
     width: 200px;
     max-width: 300px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 10rem;
 }
