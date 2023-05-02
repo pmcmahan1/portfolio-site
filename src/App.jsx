@@ -18,7 +18,6 @@ function App() {
     <>
       <Nav />
       <About />
-      <div>Recent Projects:</div>
       <section className="cards-list">{cards}</section>
       <ContactUs notify={notify} />
       <ToastContainer
