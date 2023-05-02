@@ -2,6 +2,29 @@ root {
     max-width: 2000px;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #FAF9F6 !important;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.navbar {
+    background-color: white;
+    padding: 1rem !important;
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+
 .cards-list {
     display: flex;
     flex-wrap: wrap;
@@ -20,20 +43,22 @@ root {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    padding: 5rem;
+    padding: 5rem 5rem 1rem 5rem;
 }
 
+
 .head-text {
-    margin: 2rem 12rem 0rem 4rem;
+    margin: 2rem 10rem 0rem 4rem;
     font-size: 4rem;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5rem;
 }
 
 .body-text, .projects-text {
-    margin: 1rem 12rem 1rem 4rem;
+    margin: 4rem 12rem 1rem 4rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -53,4 +78,44 @@ root {
     width: 200px;
     border-radius: 50%;
     margin-right: 10rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-left: 144px;
+    margin-bottom: 10rem;
+}
+
+.about {
+    margin-left: 144px;
+    margin-right: 272px;
+    margin-bottom: 25rem;
+}
+
+.about-head-text {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.about-body-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.skill-logo {
+    cursor: default !important;
+}
+
+.section-1 {
+    margin-bottom: 25rem;
 }

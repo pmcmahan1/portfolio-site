@@ -17,6 +17,7 @@ export default function Intro() {
         more about me or see my recent work, please view my about section and
         projects below!
       </div>
+      
     </div>
   );
 }
