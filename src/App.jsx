@@ -18,46 +18,62 @@ function App() {
 
   return (
     <>
-      <Nav id="top-anchor"/>
+      <Nav id="top-anchor" />
       <section className="page">
-      <section className="section-1">
-      <Intro />
-      <section className="socials">
-        <a
-          href="https://github.com/pmcmahan1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub size={60} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/patrick-mcmahan-736a42234/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin size={60} />
-        </a>
-      </section>
-      </section>
-      <section id="about">
-        < About />
-      </section>
-      <section id="projects" className="cards-list">{cards}</section>
-      <ContactUs notify={notify}/>
-      <ToastContainer
-        position="bottom-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover={false}
-        theme="light"
-      />
-
-</section>    </>
+        <section className="section-1">
+          <Intro />
+          <section className="socials">
+            <a
+              href="https://github.com/pmcmahan1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={60} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/patrick-mcmahan-736a42234/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={60} />
+            </a>
+          </section>
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section className="projects" id="projects">
+          <div className="projects-text">Recent Projects</div>
+          <section className="cards-list">{cards}</section>
+        </section>
+        <div className="contact-head-text" id="contact">
+          Contact
+        </div>
+        <section className="contact">
+          <ContactUs notify={notify} />
+          <div className="contact-text">
+            <div className="contact-text-head">Message me</div>
+            <div className="contact-text-body">
+              If you have any questions or would like to reach out to me, please
+              use the following form. Thank you for taking the time to look over
+              my portfolio website.
+            </div>
+          </div>
+        </section>
+        <ToastContainer
+          position="bottom-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover={false}
+          theme="light"
+        />
+      </section>{" "}
+    </>
   );
 }
 

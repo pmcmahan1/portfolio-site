@@ -29,11 +29,11 @@ export const ContactUs = (props) => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="from_name" required/>
+      <input type="text" name="from_name" class="contact-form" required/>
       <label>Email</label>
-      <input type="email" name="user_email" required/>
+      <input type="email" name="user_email" class="contact-form" required/>
       <label>Message</label>
-      <textarea name="message" required/>
+      <textarea name="message" class="contact-form" required />
       <input type="submit" value="Send" />
     </form>
   );
