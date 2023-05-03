@@ -1,3 +1,5 @@
+import avatar from '../assets/avatar.jpg'
+
 export default function Intro() {
   return (
     <div className="intro">
@@ -6,7 +8,7 @@ export default function Intro() {
           <div>Hello,</div>
           <div>My name is Patrick.</div>
         </div>
-        <img src="src\assets\avatar.jpg" alt="" className="avatar" />
+        <img src={avatar} alt="" className="avatar" />
       </div>
       <div className="body-text">
         I'm an inspiring web developer based in Cincinnati, Ohio. During my
