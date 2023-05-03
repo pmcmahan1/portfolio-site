@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <Nav id="top"/>
+      <Nav id="top-anchor"/>
       <section className="page">
       <section className="section-1">
       <Intro />
@@ -28,19 +28,21 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub size={40} />
+          <FaGithub size={60} />
         </a>
         <a
           href="https://www.linkedin.com/in/patrick-mcmahan-736a42234/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin size={40} />
+          <FaLinkedin size={60} />
         </a>
       </section>
       </section>
-      < About id="about"/>
-      <section className="cards-list">{cards}</section>
+      <section id="about">
+        < About />
+      </section>
+      <section id="projects" className="cards-list">{cards}</section>
       <ContactUs notify={notify}/>
       <ToastContainer
         position="bottom-center"

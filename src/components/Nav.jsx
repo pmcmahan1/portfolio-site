@@ -8,7 +8,7 @@ export default function MyNavBar() {
       <Container>
         <Nav.Link href="#top" activeClass="active" smooth spy to="top">Top</Nav.Link>
         <Nav.Link href="#about" activeClass="active" smooth spy to="about">About</Nav.Link>
-        <Nav.Link href="#projects">Projects</Nav.Link>
+        <Nav.Link href="#projects" activeClass="active" smooth spy to="projects">Projects</Nav.Link>
         <Nav.Link href="#contact">Contact</Nav.Link>
       </Container>
     </Navbar>

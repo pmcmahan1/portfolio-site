@@ -20,9 +20,15 @@ body {
     background-color: white;
     padding: 1rem !important;
     position: sticky !important;
-    position: -webkit-sticky !important;
     top: 0 !important;
     width: 100% !important;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end !important;
+    gap: 5rem;
+    padding-right: 10rem !important;
 }
 
 .cards-list {
@@ -58,7 +64,7 @@ body {
 }
 
 .body-text, .projects-text {
-    margin: 4rem 12rem 1rem 4rem;
+    margin: 4rem 16rem 1rem 4rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -83,7 +89,7 @@ body {
 .socials {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     margin-left: 144px;
     margin-bottom: 10rem;
 }
@@ -92,6 +98,7 @@ body {
     margin-left: 144px;
     margin-right: 272px;
     margin-bottom: 25rem;
+    margin-top: 5rem;
 }
 
 .about-head-text {
@@ -114,8 +121,33 @@ body {
 
 .skill-logo {
     cursor: default !important;
+    color: #0d6efd !important;
 }
 
 .section-1 {
-    margin-bottom: 25rem;
+    margin-bottom: 20rem;
 }
+
+.nav-link {
+    display: inline-block;
+    position: relative;
+    color: #0d6efd;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0d6efd;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
