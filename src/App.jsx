@@ -55,8 +55,7 @@ function App() {
             <div className="contact-text-head">Message me</div>
             <div className="contact-text-body">
               If you have any questions or would like to reach out to me, please
-              use the following form. Thank you for taking the time to look over
-              my portfolio website.
+              use the following form. I look forward to hearing from you!
             </div>
           </div>
         </section>

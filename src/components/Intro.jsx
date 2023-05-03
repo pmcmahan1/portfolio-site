@@ -6,7 +6,7 @@ export default function Intro() {
           <div>Hello,</div>
           <div>My name is Patrick.</div>
         </div>
-        <img src="src\assets\avatar.png" alt="" className="avatar" />
+        <img src="src\assets\avatar.jpg" alt="" className="avatar" />
       </div>
       <div className="body-text">
         I'm an inspiring web developer based in Cincinnati, Ohio. During my
@@ -17,7 +17,6 @@ export default function Intro() {
         more about me or see my recent work, please view my about section and
         projects below!
       </div>
-      
     </div>
   );
 }
