@@ -5,6 +5,7 @@ import Intro from "./components/Intro";
 import Card from "./components/Card";
 import About from "./components/About";
 import data from "./data";
+import Featured from "./components/Featured";
 import { ContactUs } from "./components/Contact";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -42,7 +43,10 @@ function App() {
         <section id="about">
           <About />
         </section>
-        <section className="projects" id="projects">
+        <section id="projects">
+          <Featured />
+        </section>
+        <section className="projects">
           <div className="projects-text">Recent Projects</div>
           <section className="cards-list">{cards}</section>
         </section>

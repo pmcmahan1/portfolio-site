@@ -243,3 +243,35 @@ textarea {
 [type="submit"]:hover {
   background: #0a58ca;
 }
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 120px;
+  background-color: white;
+  margin: 0px 160px;
+  border-radius: 25px;
+  border: 2px solid lightgray;
+}
+
+.featured-body-text{
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.featured-title{
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.featured-buttons{
+  margin-top: 50px;
+  display: flex;
+  gap: 60px;
+}
