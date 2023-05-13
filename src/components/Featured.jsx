@@ -42,7 +42,7 @@ const Featured = () => {
         allows for my auto-complete search bar and to locate the coords of the place searched.
         Using these coordinates, I make an API call to the openweathermap API, which gathers all of the data I display including daily and hourly predictions,
         sunrise and sunset times, etc. In order to translate the data from the weather API to readable
-        information, I use luxon. Best viewed on mobile devices.
+        information, I use luxon. <b>Best viewed on mobile devices.</b>
       </div>
       <div className="featured-buttons">
         <a
