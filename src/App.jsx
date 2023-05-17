@@ -9,7 +9,8 @@ import Featured from "./components/Featured";
 import { ContactUs } from "./components/Contact";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFileContract } from "react-icons/fa";
+
 
 function App() {
   const cards = data.map((item) => {
@@ -37,6 +38,13 @@ function App() {
               rel="noopener noreferrer"
             >
               <FaLinkedin size={60} />
+            </a>
+            <a
+              href="https://docs.google.com/document/d/e/2PACX-1vRwTa-AohlF4PPmG1jZHU9_Jwtf-IK6u3CoZe6Petj6LRXrUrm1lb6yzKMuB5cmIeHL2azvA9hsZnxM/pub"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFileContract size={60} />
             </a>
           </section>
         </section>
