@@ -15,7 +15,7 @@ export default function Intro() {
         spare time while working as a teacher in Japan, I wanted to learn a new
         skill that would help me in the future. That is when I discovered web
         development and it's plentiful studying resouces online. Currently, I'm
-        focused on expanding my skillset using React. If you would like to learn
+        focused on expanding my skillset on projects using React. If you would like to learn
         more about me or see my recent work, please view my about section and
         projects below!
       </div>
