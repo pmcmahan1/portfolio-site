@@ -1,5 +1,12 @@
 export default [
     {
+        title: "Adventure Game",
+        description: "React text adventure. Short and simple, really for functionality sake.",   
+        url: "https://pmcmahan1.github.io/adventure-game/",
+        srcUrl: "https://github.com/pmcmahan1/adventure-game"
+
+    },  
+    {
         title: "Business Site",
         description: "React/scss showcase using flex. Mobile compatible.",   
         url: "https://pmcmahan1.github.io/site-example/",
