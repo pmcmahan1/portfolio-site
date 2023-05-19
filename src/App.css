@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  margin: 0 10%;
 }
 
 .navbar {
@@ -50,7 +51,7 @@ body {
 }
 
 .head-text {
-  margin: 2rem 10rem 0rem 4rem;
+  margin: 2rem 4rem 0rem 4rem;
   font-size: 4rem;
   font-weight: 600;
   display: flex;
@@ -60,7 +61,7 @@ body {
 }
 
 .body-text {
-  margin: 4rem 16rem 1rem 4rem;
+  margin: 4rem 4rem 1rem 4rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -93,7 +94,7 @@ body {
 
 .about {
   margin-left: 144px;
-  margin-right: 272px;
+  margin-right: 144px;
   margin-bottom: 25rem;
   margin-top: 5rem;
 }
@@ -288,3 +289,4 @@ textarea {
   font-size: 34px;
   font-weight: 600;
 }
+
