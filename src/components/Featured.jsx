@@ -16,14 +16,14 @@ const Featured = () => {
         </div>
         <div className="featured-buttons">
           <a
-            href="https://liascandles.com/"
+            href="https://pmcmahan1.github.io/gym-site/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="btn btn-primary btn-lg">View Site</button>
           </a>
           <a
-            href="https://github.com/pmcmahan1/ecommerce-site"
+            href="https://github.com/pmcmahan1/gym-site"
             target="_blank"
             rel="noopener noreferrer"
           >
