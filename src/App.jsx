@@ -40,7 +40,7 @@ function App() {
               <FaLinkedin size={60} />
             </a>
             <a
-              href="https://docs.google.com/document/d/e/2PACX-1vRwTa-AohlF4PPmG1jZHU9_Jwtf-IK6u3CoZe6Petj6LRXrUrm1lb6yzKMuB5cmIeHL2azvA9hsZnxM/pub"
+              href="https://docs.google.com/document/d/e/2PACX-1vRGB3Svuw3-vojRl_tJG0M8hGyHqe0uonct-p5mEm5ccypdwdVUx_TCUO9QPE_P_Ww1zISOQlNtViIo/pub"
               target="_blank"
               rel="noopener noreferrer"
             >
