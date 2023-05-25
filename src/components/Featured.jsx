@@ -46,14 +46,14 @@ const Featured = () => {
         </div>
         <div className="featured-buttons">
           <a
-            href="https://pmcmahan1.github.io/weather-app/"
+            href="https://liascandles.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="btn btn-primary btn-lg">View Site</button>
           </a>
           <a
-            href="https://github.com/pmcmahan1/weather-app"
+            href="https://github.com/pmcmahan1/ecommerce-site"
             target="_blank"
             rel="noopener noreferrer"
           >
