@@ -18,13 +18,16 @@ export default function About() {
         Roblox in a language called Lua, continuing that as I grew older in a
         game called Garry's Mod. Since then, I pursued a Bachelors degree in
         History with a minor in Business Administration at the University of
-        South Carolina and enjoyed computer-related activities as a hobby.
+        South Carolina and enjoyed computer-related activities on the side 
+        as a hobby.
       </div>
       <div className="about-body-text">
         Fast forward to today, I have decided to take my interest in web
-        development and attempt to turn it into a full-time passion. I started
-        my journey though the Odin Project, and following that with free
-        learning resources such as Scrimba and freeCodeCamp. Learning HTML, CSS,
+        development and coding in general
+         and attempt to turn it into a full-time passion. I started
+        my journey though the Odin Project, and following that with other free
+        learning resources such as Scrimba and freeCodeCamp. Primarily focusing on
+        and learning HTML, CSS,
         and Javascript led me to discover React, a powerful Javascript library
         that I instantly enjoyed building applications with. Below are a few
         examples of the technologies that I have been learning with.
@@ -33,8 +36,9 @@ export default function About() {
         When I am not spending time at my computer, I enjoy lifting weights and
         playing sports such as volleyball and basketball. Recently, I have
         enjoyed hiking, traveling out west and seeing some of our great national
-        parks, including the Grand Canyon and Zion. Thanks for taking the time
-        to learn more about me!
+        parks, including the Grand Canyon and Zion. My future goals are to obtain
+        a position as a junior web developer or junior software engineer to be able to
+        pursue coding and development as a career.
       </div>
       <div className="skills">
         <Tooltip

@@ -5,17 +5,14 @@ const Featured = () => {
     <div className="featured">
       <div className="featured-item">
         <div className="featured-main">Featured Project</div>
-        <div className="featured-title">Lia's Candles</div>
+        <div className="featured-title">Gym Site</div>
         <div className="featured-body-text">
-          Lia's Candles is my first full stack project designed around an
-          ecommerce site. The only thing Lia's Candle lacks in order for full
-          functionality is a payment gateway, for example Stripe. I used React
-          and SASS for the front-end and created the back-end API with Strapi. I
-          host the website on Hostinger, and the API on DigitalOcean. While the
-          design itself is sort of bland, I learned alot throughout this project
-          and I am very proud of completing a project that involves building the
-          back-end. This project is also the site that introduced me to React
-          Router DOM, a very seamless router package.
+        This website is primarily a CSS showcase. Gym site is a static site which makes one API call,
+        to the google maps API to display the location of the business. Sign up page
+        is available but only for display purposes. I used React and SASS to build 
+        the website, along with a few npm.js components such as for the google maps
+        and the simple setup for smooth scrolling. The overall site is very simple 
+        but at the same time clean and could be used for an actual businesses site.
         </div>
         <div className="featured-buttons">
           <a
@@ -36,17 +33,16 @@ const Featured = () => {
       </div>
       <div className="featured-item">
         <div className="featured-main">Featured Project</div>
-        <div className="featured-title">Weather App</div>
+        <div className="featured-title">Lia's Candles</div>
         <div className="featured-body-text">
-          One of the first projects I completed without guidance, my weather app
-          was made using React, SASS, and two primary API calls. The first API
-          call is to the google maps API, which allows for my auto-complete
-          search bar and to locate the coords of the place searched. Using these
-          coordinates, I make an API call to the openweathermap API, which
-          gathers all of the data I display including daily and hourly
-          predictions, sunrise and sunset times, etc. In order to translate the
-          data from the weather API to readable information, I use luxon.{" "}
-          <b>Best viewed on mobile devices.</b>
+        Lia's Candles is my first full stack project designed around an
+          ecommerce site. Lia's Candle lacks a payment gateway in order for full
+          functionality, for example Stripe. I used React
+          and SASS for the front-end and created the back-end API with Strapi. I
+          host the website on Hostinger, and the API on DigitalOcean. While the
+          design itself is sort of bland, I learned alot throughout this project, especially
+           completing a project that involves building the
+          back-end API.
         </div>
         <div className="featured-buttons">
           <a

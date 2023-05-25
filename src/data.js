@@ -1,5 +1,12 @@
 export default [
     {
+        title: "Weather App",
+        description: "React weather app, google API. Best viewed on mobile.",   
+        url: "https://pmcmahan1.github.io/weather-app/",
+        srcUrl: "https://github.com/pmcmahan1/weather-app"
+
+    },  
+    {
         title: "Adventure Game",
         description: "React text adventure. Short and simple, really for functionality sake.",   
         url: "https://pmcmahan1.github.io/adventure-game/",
