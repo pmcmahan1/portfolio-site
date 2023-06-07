@@ -7,8 +7,7 @@ const Featured = () => {
         <div className="featured-main">Featured Project</div>
         <div className="featured-title">Project Zomboid Builder</div>
         <div className="featured-body-text">
-        This website was inspired by the game Project Zomboid, it is a 
-        React application designed to be a RPG character builder. You can 
+        This React application was inspired by the game Project Zomboid. You can 
         select different occupations and positive or negative traits that will
         impact your character's starting statistics. This project was incredibly fun 
         for me and has some pretty intricate React/Javascript functionality. I learned 
