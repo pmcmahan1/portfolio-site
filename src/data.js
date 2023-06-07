@@ -1,5 +1,12 @@
 export default [
     {
+        title: "Gym Site",
+        description: "React/SCSS Showcase, inspired by a friends goal to open his own.",   
+        url: "https://pmcmahan1.github.io/gym-site/",
+        srcUrl: "https://github.com/pmcmahan1/gym-site"
+
+    },  
+    {
         title: "Weather App",
         description: "React weather app, google API. Best viewed on mobile.",   
         url: "https://pmcmahan1.github.io/weather-app/",
@@ -15,7 +22,7 @@ export default [
     },  
     {
         title: "Business Site",
-        description: "React/scss showcase using flex. Mobile compatible.",   
+        description: "React/SCSS showcase using flex. Mobile compatible.",   
         url: "https://pmcmahan1.github.io/site-example/",
         srcUrl: "https://github.com/pmcmahan1/site-example"
 

@@ -5,25 +5,26 @@ const Featured = () => {
     <div className="featured">
       <div className="featured-item">
         <div className="featured-main">Featured Project</div>
-        <div className="featured-title">Gym Site</div>
+        <div className="featured-title">Project Zomboid Builder</div>
         <div className="featured-body-text">
-        This website is primarily a CSS showcase. Gym site is a static site which makes one API call,
-        to the google maps API to display the location of the business. Sign up page
-        is available but only for display purposes. I used React and SASS to build 
-        the website, along with a few npm.js components such as for the google maps
-        and the simple setup for smooth scrolling. The overall site is very simple 
-        but at the same time clean and could be used for an actual businesses site.
+        This website was inspired by the game Project Zomboid, it is a 
+        React application designed to be a RPG character builder. You can 
+        select different occupations and positive or negative traits that will
+        impact your character's starting statistics. This project was incredibly fun 
+        for me and has some pretty intricate React/Javascript functionality. I learned 
+        alot about custom components, conditional renders, and properly tracking and 
+        modifying state variables.
         </div>
         <div className="featured-buttons">
           <a
-            href="https://pmcmahan1.github.io/gym-site/"
+            href="https://pmcmahan1.github.io/pz-builder/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <button className="btn btn-primary btn-lg">View Site</button>
           </a>
           <a
-            href="https://github.com/pmcmahan1/gym-site"
+            href="https://github.com/pmcmahan1/pz-builder"
             target="_blank"
             rel="noopener noreferrer"
           >
