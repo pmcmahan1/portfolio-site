@@ -40,7 +40,7 @@ function App() {
               <FaLinkedin size={60} />
             </a>
             <a
-              href="https://docs.google.com/document/d/e/2PACX-1vRGB3Svuw3-vojRl_tJG0M8hGyHqe0uonct-p5mEm5ccypdwdVUx_TCUO9QPE_P_Ww1zISOQlNtViIo/pub"
+              href="https://peach-janella-35.tiiny.site/"
               target="_blank"
               rel="noopener noreferrer"
             >
